@@ -1,0 +1,1022 @@
+{
+   "1903": {
+      "winner": "Maurice Garin",
+      "team": "La Française",
+      "steps": 6,
+      "distance": "2 428",
+      "speed": "25,679 km/h",
+      "climber": "",
+      "sprinter": "",
+      "young": ""
+   },
+   "1904": {
+      "winner": "Henri Cornet",
+      "team": "Cycles Le Globe",
+      "steps": 6,
+      "distance": "2 428",
+      "speed": "25,265 km/h",
+      "climber": "",
+      "sprinter": "",
+      "young": ""
+   },
+   "1905": {
+      "winner": "Louis Trousselier",
+      "team": "Peugeot",
+      "steps": 11,
+      "distance": "2 994",
+      "speed": "27,107 km/h",
+      "climber": "",
+      "sprinter": "",
+      "young": ""
+   },
+   "1906": {
+      "winner": "René Pottier",
+      "team": "Peugeot",
+      "steps": 13,
+      "distance": "4 637",
+      "speed": "24,463 km/h",
+      "climber": "",
+      "sprinter": "",
+      "young": ""
+   },
+   "1907": {
+      "winner": "Lucien Petit-Breton",
+      "team": "Peugeot",
+      "steps": 14,
+      "distance": "4 488",
+      "speed": "28,470 km/h",
+      "climber": "",
+      "sprinter": "",
+      "young": ""
+   },
+   "1908": {
+      "winner": "Lucien Petit-Breton",
+      "team": "Peugeot",
+      "steps": 14,
+      "distance": "4 488",
+      "speed": "28,740 km/h",
+      "climber": "",
+      "sprinter": "",
+      "young": ""
+   },
+   "1909": {
+      "winner": "François Faber",
+      "team": "Alcyon",
+      "steps": 14,
+      "distance": "4 497",
+      "speed": "28,658 km/h",
+      "climber": "",
+      "sprinter": "",
+      "young": ""
+   },
+   "1910": {
+      "winner": "Octave Lapize",
+      "team": "Alcyon",
+      "steps": 15,
+      "distance": "4 734",
+      "speed": "29,099 km/h",
+      "climber": "",
+      "sprinter": "",
+      "young": ""
+   },
+   "1911": {
+      "winner": "Gustave Garrigou",
+      "team": "Alcyon",
+      "steps": 15,
+      "distance": "5 343",
+      "speed": "27,322 km/h",
+      "climber": "",
+      "sprinter": "",
+      "young": ""
+   },
+   "1912": {
+      "winner": "Odile Defraye",
+      "team": "Alcyon",
+      "steps": 15,
+      "distance": "5 289",
+      "speed": "27,763 km/h",
+      "climber": "",
+      "sprinter": "",
+      "young": ""
+   },
+   "1913": {
+      "winner": "Philippe Thys",
+      "team": "Peugeot",
+      "steps": 15,
+      "distance": "5 287",
+      "speed": "26,715 km/h",
+      "climber": "",
+      "sprinter": "",
+      "young": ""
+   },
+   "1914": {
+      "winner": "Philippe Thys",
+      "team": "Peugeot",
+      "steps": 15,
+      "distance": "5 380",
+      "speed": "26,835 km/h",
+      "climber": "",
+      "sprinter": "",
+      "young": ""
+   },
+   "1919": {
+      "winner": "Firmin Lambot",
+      "team": "La Sportive",
+      "steps": 15,
+      "distance": "5 560",
+      "speed": "24,056 km/h",
+      "climber": "",
+      "sprinter": "",
+      "young": ""
+   },
+   "1920": {
+      "winner": "Philippe Thys",
+      "team": "La Sportive",
+      "steps": 15,
+      "distance": "5 503",
+      "speed": "24,072 km/h",
+      "climber": "",
+      "sprinter": "",
+      "young": ""
+   },
+   "1921": {
+      "winner": "Léon Scieur",
+      "team": "La Sportive",
+      "steps": 15,
+      "distance": "5 485",
+      "speed": "24,724 km/h",
+      "climber": "",
+      "sprinter": "",
+      "young": ""
+   },
+   "1922": {
+      "winner": "Firmin Lambot",
+      "team": "Peugeot",
+      "steps": 15,
+      "distance": "5 375",
+      "speed": "24,196 km/h",
+      "climber": "",
+      "sprinter": "",
+      "young": ""
+   },
+   "1923": {
+      "winner": "Henri Pélissier",
+      "team": "Automoto",
+      "steps": 15,
+      "distance": "5 386",
+      "speed": "24,233 km/h",
+      "climber": "",
+      "sprinter": "",
+      "young": ""
+   },
+   "1924": {
+      "winner": "Ottavio Bottecchia",
+      "team": "Automoto",
+      "steps": 15,
+      "distance": "5 425",
+      "speed": "24,250 km/h",
+      "climber": "",
+      "sprinter": "",
+      "young": ""
+   },
+   "1925": {
+      "winner": "Ottavio Bottecchia",
+      "team": "Automoto",
+      "steps": 15,
+      "distance": "5 440",
+      "speed": "24,820 km/h",
+      "climber": "",
+      "sprinter": "",
+      "young": ""
+   },
+   "1926": {
+      "winner": "Lucien Buysse",
+      "team": "Automoto",
+      "steps": 17,
+      "distance": "5 745",
+      "speed": "24,273 km/h",
+      "climber": "",
+      "sprinter": "",
+      "young": ""
+   },
+   "1927": {
+      "winner": "Nicolas Frantz",
+      "team": "Alcyon",
+      "steps": 24,
+      "distance": "5 398",
+      "speed": "27,224 km/h",
+      "climber": "",
+      "sprinter": "",
+      "young": ""
+   },
+   "1928": {
+      "winner": "Nicolas Frantz",
+      "team": "Alcyon",
+      "steps": 22,
+      "distance": "5 376",
+      "speed": "28,400 km/h",
+      "climber": "",
+      "sprinter": "",
+      "young": ""
+   },
+   "1929": {
+      "winner": "Maurice De Waele",
+      "team": "Alcyon",
+      "steps": 22,
+      "distance": "5 286",
+      "speed": "28,319 km/h",
+      "climber": "",
+      "sprinter": "",
+      "young": ""
+   },
+   "1930": {
+      "winner": "André Leducq",
+      "team": "France",
+      "steps": 21,
+      "distance": "4 822",
+      "speed": "28,000 km/h",
+      "climber": "",
+      "sprinter": "",
+      "young": ""
+   },
+   "1931": {
+      "winner": "Antonin Magne",
+      "team": "France",
+      "steps": 24,
+      "distance": "5 091",
+      "speed": "28,735 km/h",
+      "climber": "",
+      "sprinter": "",
+      "young": ""
+   },
+   "1932": {
+      "winner": "André Leducq",
+      "team": "France",
+      "steps": 21,
+      "distance": "4 479",
+      "speed": "29,047 km/h",
+      "climber": "",
+      "sprinter": "",
+      "young": ""
+   },
+   "1933": {
+      "winner": "Georges Speicher",
+      "team": "France",
+      "steps": 23,
+      "distance": "4 395",
+      "speed": "29,818 km/h",
+      "climber": "Vicente Trueba",
+      "sprinter": "",
+      "young": ""
+   },
+   "1934": {
+      "winner": "Antonin Magne",
+      "team": "France",
+      "steps": 23,
+      "distance": "4 470",
+      "speed": "30,360 km/h",
+      "climber": "René Vietto",
+      "sprinter": "",
+      "young": ""
+   },
+   "1935": {
+      "winner": "Romain Maes",
+      "team": "Belgique",
+      "steps": 21,
+      "distance": "4 338",
+      "speed": "30,650 km/h",
+      "climber": "Félicien Vervaecke",
+      "sprinter": "",
+      "young": ""
+   },
+   "1936": {
+      "winner": "Sylvère Maes",
+      "team": "Belgique",
+      "steps": 21,
+      "distance": "4 442",
+      "speed": "31,108 km/h",
+      "climber": "Julián Berrendero",
+      "sprinter": "",
+      "young": ""
+   },
+   "1937": {
+      "winner": "Roger Lapébie",
+      "team": "France",
+      "steps": 20,
+      "distance": "4 415",
+      "speed": "31,768 km/h",
+      "climber": "Félicien Vervaecke",
+      "sprinter": "",
+      "young": ""
+   },
+   "1938": {
+      "winner": "Gino Bartali",
+      "team": "Italie",
+      "steps": 21,
+      "distance": "4 694",
+      "speed": "31,565 km/h",
+      "climber": "Gino Bartali",
+      "sprinter": "",
+      "young": ""
+   },
+   "1939": {
+      "winner": "Sylvère Maes",
+      "team": "Belgique",
+      "steps": 18,
+      "distance": "4 224",
+      "speed": "31,986 km/h",
+      "climber": "Sylvère Maes",
+      "sprinter": "",
+      "young": ""
+   },
+   "1947": {
+      "winner": "Jean Robic",
+      "team": "Ouest",
+      "steps": 21,
+      "distance": "4 642",
+      "speed": "31,412 km/h",
+      "climber": "Pierre Brambilla",
+      "sprinter": "",
+      "young": ""
+   },
+   "1948": {
+      "winner": "Gino Bartali",
+      "team": "Italie",
+      "steps": 21,
+      "distance": "4 922",
+      "speed": "33,442 km/h",
+      "climber": "Gino Bartali",
+      "sprinter": "",
+      "young": ""
+   },
+   "1949": {
+      "winner": "Fausto Coppi",
+      "team": "Italie",
+      "steps": 21,
+      "distance": "4 808",
+      "speed": "32,121 km/h",
+      "climber": "Fausto Coppi",
+      "sprinter": "",
+      "young": ""
+   },
+   "1950": {
+      "winner": "Ferdi Kübler",
+      "team": "Suisse",
+      "steps": 22,
+      "distance": "4 773",
+      "speed": "32,778 km/h",
+      "climber": "Louison Bobet",
+      "sprinter": "",
+      "young": ""
+   },
+   "1951": {
+      "winner": "Hugo Koblet",
+      "team": "Suisse",
+      "steps": 24,
+      "distance": "4 690",
+      "speed": "32,949 km/h",
+      "climber": "Raphaël Géminiani",
+      "sprinter": "",
+      "young": ""
+   },
+   "1952": {
+      "winner": "Fausto Coppi",
+      "team": "Italie",
+      "steps": 23,
+      "distance": "4 898",
+      "speed": "32,233 km/h",
+      "climber": "Fausto Coppi",
+      "sprinter": "",
+      "young": ""
+   },
+   "1953": {
+      "winner": "Louison Bobet",
+      "team": "France",
+      "steps": 22,
+      "distance": "4 476",
+      "speed": "34,593 km/h",
+      "climber": "Jesús Loroño",
+      "sprinter": "Fritz Schaer",
+      "young": ""
+   },
+   "1954": {
+      "winner": "Louison Bobet",
+      "team": "France",
+      "steps": 23,
+      "distance": "4 656",
+      "speed": "33,229 km/h",
+      "climber": "Federico Bahamontes",
+      "sprinter": "Ferdi Kübler",
+      "young": ""
+   },
+   "1955": {
+      "winner": "Louison Bobet",
+      "team": "France",
+      "steps": 22,
+      "distance": "4 495",
+      "speed": "34,446 km/h",
+      "climber": "Charly Gaul",
+      "sprinter": "Stan Ockers",
+      "young": ""
+   },
+   "1956": {
+      "winner": "Roger Walkowiak",
+      "team": "Nord-Est",
+      "steps": 22,
+      "distance": "4 498",
+      "speed": "36,268 km/h",
+      "climber": "Charly Gaul",
+      "sprinter": "Stan Ockers",
+      "young": ""
+   },
+   "1957": {
+      "winner": "Jacques Anquetil",
+      "team": "France",
+      "steps": 23,
+      "distance": "4 669",
+      "speed": "34,520 km/h",
+      "climber": "Gastone Nencini",
+      "sprinter": "Jean Forestier",
+      "young": ""
+   },
+   "1958": {
+      "winner": "Charly Gaul",
+      "team": "Mixte",
+      "steps": 24,
+      "distance": "4 319",
+      "speed": "36,919 km/h",
+      "climber": "Federico Bahamontes",
+      "sprinter": "Jean Graczyk",
+      "young": ""
+   },
+   "1959": {
+      "winner": "Federico Bahamontes",
+      "team": "Espagne",
+      "steps": 22,
+      "distance": "4 358",
+      "speed": "35,474 km/h",
+      "climber": "Federico Bahamontes",
+      "sprinter": "André Darrigade",
+      "young": ""
+   },
+   "1960": {
+      "winner": "Gastone Nencini",
+      "team": "Italie",
+      "steps": 21,
+      "distance": "4 173",
+      "speed": "37,210 km/h",
+      "climber": "Imerio Massignan",
+      "sprinter": "Jean Graczyk",
+      "young": ""
+   },
+   "1961": {
+      "winner": "Jacques Anquetil",
+      "team": "France",
+      "steps": 21,
+      "distance": "4 397",
+      "speed": "36,033 km/h",
+      "climber": "Imerio Massignan",
+      "sprinter": "André Darrigade",
+      "young": ""
+   },
+   "1962": {
+      "winner": "Jacques Anquetil",
+      "team": "St-Raphaël",
+      "steps": 22,
+      "distance": "4 274",
+      "speed": "37,317 km/h",
+      "climber": "Federico Bahamontes",
+      "sprinter": "Rudi Altig",
+      "young": ""
+   },
+   "1963": {
+      "winner": "Jacques Anquetil",
+      "team": "St-Raphaël",
+      "steps": 21,
+      "distance": "4 138",
+      "speed": "37,092 km/h",
+      "climber": "Federico Bahamontes",
+      "sprinter": "Rik Van Looy",
+      "young": ""
+   },
+   "1964": {
+      "winner": "Jacques Anquetil",
+      "team": "St-Raphaël",
+      "steps": 22,
+      "distance": "4 504",
+      "speed": "35,419 km/h",
+      "climber": "Federico Bahamontes",
+      "sprinter": "Jan Janssen",
+      "young": ""
+   },
+   "1965": {
+      "winner": "Felice Gimondi",
+      "team": "Salvarani",
+      "steps": 22,
+      "distance": "4 188",
+      "speed": "35,886 km/h",
+      "climber": "Julio Jiménez",
+      "sprinter": "Jan Janssen",
+      "young": ""
+   },
+   "1966": {
+      "winner": "Lucien Aimar",
+      "team": "Ford France",
+      "steps": 22,
+      "distance": "4 329",
+      "speed": "36,760 km/h",
+      "climber": "Julio Jiménez",
+      "sprinter": "Willy Planckaert",
+      "young": ""
+   },
+   "1967": {
+      "winner": "Roger Pingeon",
+      "team": "France",
+      "steps": 22,
+      "distance": "4 779",
+      "speed": "34,756 km/h",
+      "climber": "Julio Jiménez",
+      "sprinter": "Jan Janssen",
+      "young": ""
+   },
+   "1968": {
+      "winner": "Jan Janssen",
+      "team": "Pays-Bas",
+      "steps": 22,
+      "distance": "4 492",
+      "speed": "33,556 km/h",
+      "climber": "Aurelio González",
+      "sprinter": "Franco Bitossi",
+      "young": ""
+   },
+   "1969": {
+      "winner": "Eddy Merckx",
+      "team": "Faema",
+      "steps": 22,
+      "distance": "4 117",
+      "speed": "35,409 km/h",
+      "climber": "Eddy Merckx",
+      "sprinter": "Eddy Merckx",
+      "young": ""
+   },
+   "1970": {
+      "winner": "Eddy Merckx",
+      "team": "Faema",
+      "steps": 22,
+      "distance": "4 254",
+      "speed": "35,589 km/h",
+      "climber": "Eddy Merckx",
+      "sprinter": "Walter Godefroot",
+      "young": ""
+   },
+   "1971": {
+      "winner": "Eddy Merckx",
+      "team": "Molteni",
+      "steps": 20,
+      "distance": "3 608",
+      "speed": "38,084 km/h",
+      "climber": "Lucien Van Impe",
+      "sprinter": "Eddy Merckx",
+      "young": ""
+   },
+   "1972": {
+      "winner": "Eddy Merckx",
+      "team": "Molteni",
+      "steps": 20,
+      "distance": "3 846",
+      "speed": "35,514 km/h",
+      "climber": "Lucien Van Impe",
+      "sprinter": "Eddy Merckx",
+      "young": ""
+   },
+   "1973": {
+      "winner": "Luis Ocaña",
+      "team": "Bic",
+      "steps": 20,
+      "distance": "4 090",
+      "speed": "33,407 km/h",
+      "climber": "Pedro Torres",
+      "sprinter": "Herman Van Springel",
+      "young": ""
+   },
+   "1974": {
+      "winner": "Eddy Merckx",
+      "team": "Molteni",
+      "steps": 22,
+      "distance": "4 098",
+      "speed": "35,241 km/h",
+      "climber": "Domingo Perurena",
+      "sprinter": "Patrick Sercu",
+      "young": ""
+   },
+   "1975": {
+      "winner": "Bernard Thévenet",
+      "team": "Peugeot",
+      "steps": 22,
+      "distance": "4 000",
+      "speed": "34,906 km/h",
+      "climber": "Lucien Van Impe",
+      "sprinter": "Rik Van Linden",
+      "young": "Francesco Moser"
+   },
+   "1976": {
+      "winner": "Lucien Van Impe",
+      "team": "Gitane",
+      "steps": 22,
+      "distance": "4 017",
+      "speed": "34,518 km/h",
+      "climber": "Giancarlo Bellini",
+      "sprinter": "Freddy Maertens",
+      "young": "Enrique Martínez Heredia"
+   },
+   "1977": {
+      "winner": "Bernard Thévenet",
+      "team": "Peugeot",
+      "steps": 22,
+      "distance": "4 096",
+      "speed": "35,419 km/h",
+      "climber": "Lucien Van Impe",
+      "sprinter": "Jacques Esclassan",
+      "young": "Dietrich Thurau"
+   },
+   "1978": {
+      "winner": "Bernard Hinault",
+      "team": "Renault-Gitane",
+      "steps": 22,
+      "distance": "3 908",
+      "speed": "36,084 km/h",
+      "climber": "Mariano Martinez",
+      "sprinter": "Freddy Maertens",
+      "young": "Henk Lubberding"
+   },
+   "1979": {
+      "winner": "Bernard Hinault",
+      "team": "Renault-Gitane",
+      "steps": 24,
+      "distance": "3 765",
+      "speed": "36,513 km/h",
+      "climber": "Giovanni Battaglin",
+      "sprinter": "Bernard Hinault",
+      "young": "Jean-René Bernaudeau"
+   },
+   "1980": {
+      "winner": "Joop Zoetemelk",
+      "team": "Ti-Raleigh",
+      "steps": 22,
+      "distance": "3 842",
+      "speed": "35,144 km/h",
+      "climber": "Raymond Martin",
+      "sprinter": "Rudy Pevenage",
+      "young": "Johan van der Velde"
+   },
+   "1981": {
+      "winner": "Bernard Hinault",
+      "team": "Renault-Gitane",
+      "steps": 24,
+      "distance": "3 753",
+      "speed": "38,960 km/h",
+      "climber": "Lucien Van Impe",
+      "sprinter": "Freddy Maertens",
+      "young": "Peter Winnen"
+   },
+   "1982": {
+      "winner": "Bernard Hinault",
+      "team": "Renault-Gitane",
+      "steps": 21,
+      "distance": "3 507",
+      "speed": "38,059 km/h",
+      "climber": "Bernard Vallet",
+      "sprinter": "Seán Kelly",
+      "young": "Phil Anderson"
+   },
+   "1983": {
+      "winner": "Laurent Fignon",
+      "team": "Renault-Gitane",
+      "steps": 22,
+      "distance": "3 809",
+      "speed": "36,230 km/h",
+      "climber": "Lucien Van Impe",
+      "sprinter": "Seán Kelly",
+      "young": "Laurent Fignon"
+   },
+   "1984": {
+      "winner": "Laurent Fignon",
+      "team": "Renault-Gitane",
+      "steps": 23,
+      "distance": "4 021",
+      "speed": "35,882 km/h",
+      "climber": "Robert Millar",
+      "sprinter": "Frank Hoste",
+      "young": "Greg LeMond"
+   },
+   "1985": {
+      "winner": "Bernard Hinault",
+      "team": "La Vie claire",
+      "steps": 22,
+      "distance": "4 109",
+      "speed": "36,232 km/h",
+      "climber": "Luis Herrera",
+      "sprinter": "Seán Kelly",
+      "young": "Fabio Parra"
+   },
+   "1986": {
+      "winner": "Greg LeMond",
+      "team": "La Vie claire",
+      "steps": 23,
+      "distance": "4 094",
+      "speed": "37,020 km/h",
+      "climber": "Bernard Hinault",
+      "sprinter": "Eric Vanderaerden",
+      "young": "Andrew Hampsten"
+   },
+   "1987": {
+      "winner": "Stephen Roche",
+      "team": "Carrera",
+      "steps": 25,
+      "distance": "4 231",
+      "speed": "36,645 km/h",
+      "climber": "Luis Herrera",
+      "sprinter": "Jean-Paul van Poppel",
+      "young": "Raúl Alcalá"
+   },
+   "1988": {
+      "winner": "Pedro Delgado",
+      "team": "Reynolds",
+      "steps": 22,
+      "distance": "3 286",
+      "speed": "38,909 km/h",
+      "climber": "Steven Rooks",
+      "sprinter": "Eddy Planckaert",
+      "young": "Erik Breukink"
+   },
+   "1989": {
+      "winner": "Greg LeMond",
+      "team": "ADR",
+      "steps": 21,
+      "distance": "3 285",
+      "speed": "37,487 km/h",
+      "climber": "Gert-Jan Theunisse",
+      "sprinter": "Seán Kelly",
+      "young": "Fabrice Philipot"
+   },
+   "1990": {
+      "winner": "Greg LeMond",
+      "team": "Z",
+      "steps": 21,
+      "distance": "3 504",
+      "speed": "38,621 km/h",
+      "climber": "Thierry Claveyrolat",
+      "sprinter": "Olaf Ludwig",
+      "young": "Gilles Delion"
+   },
+   "1991": {
+      "winner": "Miguel Indurain",
+      "team": "Banesto",
+      "steps": 22,
+      "distance": "3 914",
+      "speed": "38,747 km/h",
+      "climber": "Claudio Chiappucci",
+      "sprinter": "Djamolidine Abdoujaparov",
+      "young": "Álvaro Mejía"
+   },
+   "1992": {
+      "winner": "Miguel Indurain",
+      "team": "Banesto",
+      "steps": 21,
+      "distance": "3 983",
+      "speed": "39,504 km/h",
+      "climber": "Claudio Chiappucci",
+      "sprinter": "Laurent Jalabert",
+      "young": "Eddy Bouwmans"
+   },
+   "1993": {
+      "winner": "Miguel Indurain",
+      "team": "Banesto",
+      "steps": 20,
+      "distance": "3 714",
+      "speed": "38,709 km/h",
+      "climber": "Tony Rominger",
+      "sprinter": "Djamolidine Abdoujaparov",
+      "young": "Antonio Martín Velasco"
+   },
+   "1994": {
+      "winner": "Miguel Indurain",
+      "team": "Banesto",
+      "steps": 21,
+      "distance": "3 978",
+      "speed": "38,383 km/h",
+      "climber": "Richard Virenque",
+      "sprinter": "Djamolidine Abdoujaparov",
+      "young": "Marco Pantani"
+   },
+   "1995": {
+      "winner": "Miguel Indurain",
+      "team": "Banesto",
+      "steps": 20,
+      "distance": "3 635",
+      "speed": "39,193 km/h",
+      "climber": "Richard Virenque",
+      "sprinter": "Laurent Jalabert",
+      "young": "Marco Pantani"
+   },
+   "1996": {
+      "winner": "Bjarne Riis",
+      "team": "Telekom",
+      "steps": 21,
+      "distance": "3 765",
+      "speed": "39,227 km/h",
+      "climber": "Richard Virenque",
+      "sprinter": "Erik Zabel",
+      "young": "Jan Ullrich"
+   },
+   "1997": {
+      "winner": "Jan Ullrich",
+      "team": "Telekom",
+      "steps": 21,
+      "distance": "3 950",
+      "speed": "39,237 km/h",
+      "climber": "Richard Virenque",
+      "sprinter": "Erik Zabel",
+      "young": "Jan Ullrich"
+   },
+   "1998": {
+      "winner": "Marco Pantani",
+      "team": "Mercatone Uno",
+      "steps": 21,
+      "distance": "3 875",
+      "speed": "39,983 km/h",
+      "climber": "Christophe Rinero",
+      "sprinter": "Erik Zabel",
+      "young": "Jan Ullrich"
+   },
+   "1999": {
+      "winner": "non attribué",
+      "team": "",
+      "steps": 20,
+      "distance": "3 870",
+      "speed": "40,276 km/h",
+      "climber": "Richard Virenque",
+      "sprinter": "Erik Zabel",
+      "young": "Benoît Salmon"
+   },
+   "2000": {
+      "winner": "non attribué",
+      "team": "",
+      "steps": 21,
+      "distance": "3 662",
+      "speed": "39,569 km/h",
+      "climber": "Santiago Botero",
+      "sprinter": "Erik Zabel",
+      "young": "Francisco Mancebo"
+   },
+   "2001": {
+      "winner": "non attribué",
+      "team": "",
+      "steps": 20,
+      "distance": "3 458",
+      "speed": "40,070 km/h",
+      "climber": "Laurent Jalabert",
+      "sprinter": "Erik Zabel",
+      "young": "Óscar Sevilla"
+   },
+   "2002": {
+      "winner": "non attribué",
+      "team": "",
+      "steps": 20,
+      "distance": "3 278",
+      "speed": "39,920 km/h",
+      "climber": "Laurent Jalabert",
+      "sprinter": "Robbie McEwen",
+      "young": "Ivan Basso"
+   },
+   "2003": {
+      "winner": "non attribué",
+      "team": "",
+      "steps": 20,
+      "distance": "3 427",
+      "speed": "40,940 km/h",
+      "climber": "Richard Virenque",
+      "sprinter": "Baden Cooke",
+      "young": "Denis Menchov"
+   },
+   "2004": {
+      "winner": "non attribué",
+      "team": "",
+      "steps": 20,
+      "distance": "3 391",
+      "speed": "40,553 km/h",
+      "climber": "Richard Virenque",
+      "sprinter": "Robbie McEwen",
+      "young": "Vladimir Karpets"
+   },
+   "2005": {
+      "winner": "non attribué",
+      "team": "",
+      "steps": 21,
+      "distance": "3 593",
+      "speed": "41,654 km/h",
+      "climber": "Michael Rasmussen",
+      "sprinter": "Thor Hushovd",
+      "young": "Yaroslav Popovych"
+   },
+   "2006": {
+      "winner": "Óscar Pereiro",
+      "team": "Caisse d'Épargne",
+      "steps": 21,
+      "distance": "3 657,1",
+      "speed": "40,784 km/h",
+      "climber": "Michael Rasmussen",
+      "sprinter": "Robbie McEwen",
+      "young": "Damiano Cunego"
+   },
+   "2007": {
+      "winner": "Alberto Contador",
+      "team": "Discovery Channel",
+      "steps": 21,
+      "distance": "3 569,5",
+      "speed": "39,228 km/h",
+      "climber": "Mauricio Soler",
+      "sprinter": "Tom Boonen",
+      "young": "Alberto Contador"
+   },
+   "2008": {
+      "winner": "Carlos Sastre",
+      "team": "CSC-Saxo Bank",
+      "steps": 21,
+      "distance": "3 558,5",
+      "speed": "40,492 km/h",
+      "climber": "Carlos Sastre",
+      "sprinter": "Óscar Freire",
+      "young": "Andy Schleck"
+   },
+   "2009": {
+      "winner": "Alberto Contador",
+      "team": "Astana",
+      "steps": 21,
+      "distance": "3 459,5",
+      "speed": "40,315 km/h",
+      "climber": "Egoi Martínez",
+      "sprinter": "Thor Hushovd",
+      "young": "Andy Schleck"
+   },
+   "2010": {
+      "winner": "Andy Schleck",
+      "team": "Saxo Bank",
+      "steps": 21,
+      "distance": "3 642",
+      "speed": "39,594 km/h",
+      "climber": "Anthony Charteau",
+      "sprinter": "Alessandro Petacchi",
+      "young": "Andy Schleck"
+   },
+   "2011": {
+      "winner": "Cadel Evans",
+      "team": "BMC Racing",
+      "steps": 21,
+      "distance": "3 430",
+      "speed": "39,788 km/h",
+      "climber": "Samuel Sánchez",
+      "sprinter": "Mark Cavendish",
+      "young": "Pierre Rolland"
+   },
+   "2012": {
+      "winner": "Bradley Wiggins",
+      "team": "Sky",
+      "steps": 21,
+      "distance": "3 497",
+      "speed": "39,724 km/h",
+      "climber": "Thomas Voeckler",
+      "sprinter": "Peter Sagan",
+      "young": "Tejay van Garderen"
+   },
+   "2013": {
+      "winner": "Christopher Froome",
+      "team": "Sky",
+      "steps": 21,
+      "distance": "3 404",
+      "speed": "40,542 km/h",
+      "climber": "Nairo Quintana",
+      "sprinter": "Peter Sagan",
+      "young": "Nairo Quintana"
+   },
+   "2014": {
+      "winner": "Vincenzo Nibali",
+      "team": "Astana",
+      "steps": 21,
+      "distance": "3 660,5",
+      "speed": "40,452 km/h",
+      "climber": "Rafał Majka",
+      "sprinter": "Peter Sagan",
+      "young": "Thibaut Pinot"
+   },
+   "2015": {
+      "winner": "Christopher Froome",
+      "team": "Sky",
+      "steps": 21,
+      "distance": "3 582,7",
+      "speed": "39,567 km/h",
+      "climber": "Christopher Froome",
+      "sprinter": "Peter Sagan",
+      "young": "Nairo Quintana"
+   }
+}
