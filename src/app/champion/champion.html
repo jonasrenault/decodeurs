@@ -1,0 +1,63 @@
+<md-content flex class="champion-container" layout-padding layout="column">
+
+  <h4 class="md-title">
+    Hey there champion, what year were you born ?
+  </h4>
+
+  <div layout="row">
+    <form name="championForm" flex-gt-sm="20" flex="50">
+      <md-input-container class="md-block" flex-gt-sm>
+        <label>Year of birth</label>
+        <input type="number" name="year" ng-model="$ctrl.year" placeholder="1986" required ng-pattern="/^[0-9]{4}$/" ng-change="$ctrl.onYearChange()">
+        <div ng-messages="championForm.year.$error" role="alert" multiple>
+          <div ng-message="required" class="my-message">You must supply your year of birth.</div>
+          <div ng-message="pattern" class="my-message">That doesn't look like a valid year.
+          </div>
+        </div>
+      </md-input-container>
+    </form>
+  </div>
+
+  <md-content class="md-padding" layout-xs="column" layout="row" ng-show="$ctrl.info">
+
+    <md-card class="yellow">
+      <md-card-header>
+        <md-card-avatar>
+          <img class="md-user-avatar" ng-src="{{$ctrl.thumbnails['winner']}}" ng-show="$ctrl.thumbnails['winner']" />
+        </md-card-avatar>
+        <md-card-header-text>
+          <span class="md-title">{{ $ctrl.info.winner }}</span>
+          <span class="md-subhead">Vainqueur</span>
+        </md-card-header-text>
+      </md-card-header>
+    </md-card>
+
+    <md-card ng-show="$ctrl.info.climber" class="polka">
+      <md-card-header>
+        <md-card-avatar>
+          <img class="md-user-avatar" ng-src="{{$ctrl.thumbnails['climber']}}" ng-show="$ctrl.thumbnails['climber']" />
+        </md-card-avatar>
+        <md-card-header-text>
+          <span class="md-title">{{ $ctrl.info.climber }}</span>
+          <span class="md-subhead">Meilleur grimpeur</span>
+        </md-card-header-text>
+      </md-card-header>
+    </md-card>
+
+    <md-card ng-show="$ctrl.info.sprinter" class="green">
+      <md-card-header>
+        <md-card-avatar>
+          <img class="md-user-avatar" ng-src="{{$ctrl.thumbnails['sprinter']}}" ng-show="$ctrl.thumbnails['sprinter']" />
+        </md-card-avatar>
+        <md-card-header-text>
+          <span class="md-title">{{ $ctrl.info.sprinter }}</span>
+          <span class="md-subhead">Meilleur sprinter</span>
+        </md-card-header-text>
+      </md-card-header>
+    </md-card>
+
+  </md-content>
+  <md-content ng-show="!$ctrl.info && $ctrl.year">
+    <p>Sorry my friend, I don't have any Tour de France data for that year...</p>
+  </md-content>
+</md-content>
