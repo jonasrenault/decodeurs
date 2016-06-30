@@ -1,6 +1,6 @@
 # Tour de France Champion
 
-This is a simple project that I did for Les Décodeurs.
+This is a simple project that I did for [Les Décodeurs][decodeurs].
 
 ### Web app specifications :
 
@@ -60,7 +60,7 @@ MIT
 
 
 
-   
+   [decodeurs]: <http://www.lemonde.fr/les-decodeurs/>
    [@jonasrza]: <https://twitter.com/jonasrza>
    [Angular]: <http://angularjs.org>
    [Material]: <https://material.angularjs.org/latest/>
