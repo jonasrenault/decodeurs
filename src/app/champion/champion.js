@@ -28,7 +28,7 @@ class ChampionController {
   }
 
   queryForThumbnail(name, key) {
-    const url = `https://en.wikipedia.org/w/api.php?action=query&titles=${name} &prop=pageimages&format=json&pithumbsize=152&callback=JSON_CALLBACK`;
+    const url = `https://en.wikipedia.org/w/api.php?action=query&titles=${name}&prop=pageimages&format=json&pithumbsize=152&callback=JSON_CALLBACK`;
     this.$http.jsonp(url).then(response => {
       const pages = response.data.query.pages;
       const page = pages[Object.keys(pages)[0]];
