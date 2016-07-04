@@ -30,6 +30,12 @@ module.exports = {
           'ng-annotate',
           'babel'
         ]
+      },
+      {
+        test: /node_modules/,
+        loader: [
+          'ify'
+        ]
       }
     ]
   },

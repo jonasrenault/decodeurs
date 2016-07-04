@@ -23,40 +23,99 @@
     <md-card class="yellow">
       <md-card-header>
         <md-card-avatar>
-          <img class="md-user-avatar" ng-src="{{$ctrl.thumbnails['winner']}}" ng-show="$ctrl.thumbnails['winner']" />
+          <img class="md-user-avatar" ng-src="{{$ctrl.winner.thumbnail}}" ng-show="$ctrl.winner.thumbnail" />
         </md-card-avatar>
         <md-card-header-text>
           <span class="md-title">{{ $ctrl.info.winner }}</span>
           <span class="md-subhead">Vainqueur</span>
         </md-card-header-text>
       </md-card-header>
+      <md-card-content>
+        <p><strong>Winner: </strong> {{ $ctrl.winner.winner.join(", ")}}</p>
+        <p ng-if="$ctrl.winner.climber"><strong>Climber: </strong> {{ $ctrl.winner.climber.join(", ")}}</p>
+        <p ng-if="$ctrl.winner.sprinter"><strong>Sprinter: </strong> {{ $ctrl.winner.sprinter.join(", ")}}</p>
+      </md-card-content>
     </md-card>
 
     <md-card ng-show="$ctrl.info.climber" class="polka">
       <md-card-header>
         <md-card-avatar>
-          <img class="md-user-avatar" ng-src="{{$ctrl.thumbnails['climber']}}" ng-show="$ctrl.thumbnails['climber']" />
+          <img class="md-user-avatar" ng-src="{{$ctrl.climber.thumbnail}}" ng-show="$ctrl.climber.thumbnail" />
         </md-card-avatar>
         <md-card-header-text>
           <span class="md-title">{{ $ctrl.info.climber }}</span>
           <span class="md-subhead">Meilleur grimpeur</span>
         </md-card-header-text>
       </md-card-header>
+      <md-card-content>
+        <p ng-if="$ctrl.climber.winner"><strong>Winner: </strong> {{ $ctrl.climber.winner.join(", ")}}</p>
+        <p><strong>Climber: </strong> {{ $ctrl.climber.climber.join(", ")}}</p>
+        <p ng-if="$ctrl.climber.sprinter"><strong>Sprinter: </strong> {{ $ctrl.climber.sprinter.join(", ")}}</p>
+      </md-card-content>
     </md-card>
 
     <md-card ng-show="$ctrl.info.sprinter" class="green">
       <md-card-header>
         <md-card-avatar>
-          <img class="md-user-avatar" ng-src="{{$ctrl.thumbnails['sprinter']}}" ng-show="$ctrl.thumbnails['sprinter']" />
+          <img class="md-user-avatar" ng-src="{{$ctrl.sprinter.thumbnail}}" ng-show="$ctrl.sprinter.thumbnail" />
         </md-card-avatar>
         <md-card-header-text>
           <span class="md-title">{{ $ctrl.info.sprinter }}</span>
           <span class="md-subhead">Meilleur sprinter</span>
         </md-card-header-text>
       </md-card-header>
+      <md-card-content>
+        <p ng-if="$ctrl.sprinter.winner"><strong>Winner: </strong> {{ $ctrl.sprinter.winner.join(", ")}}</p>
+        <p ng-if="$ctrl.sprinter.climber"><strong>Climber: </strong> {{ $ctrl.sprinter.climber.join(", ")}}</p>
+        <p><strong>Sprinter: </strong> {{ $ctrl.sprinter.sprinter.join(", ")}}</p>
+      </md-card-content>
     </md-card>
 
   </md-content>
+
+  <md-content class="md-padding" layout="column" layout-gt-sm="column" ng-show="$ctrl.info">
+
+    <md-content layout="row">
+      <md-card>
+        <md-card-title>
+          <md-card-title-text>
+            <span class="md-headline">The average speed that year was {{$ctrl.info.speed}}</span>
+          </md-card-title-text>
+        </md-card-title>
+        <md-card-content>
+          <div id="speedContainer" class="md-card-image" alt="Average Speed"></div>
+        </md-card-content>
+      </md-card>
+    </md-content>
+
+    <md-content layout="row">
+      <md-card>
+        <md-card-title>
+          <md-card-title-text>
+            <span class="md-headline">The distance covered that year was {{$ctrl.info.distance}} km</span>
+          </md-card-title-text>
+        </md-card-title>
+        <md-card-content>
+          <div id="distanceContainer" class="md-card-image" alt="Average Speed"></div>
+        </md-card-content>
+      </md-card>
+    </md-content>
+
+    <md-content layout="row">
+      <md-card>
+        <md-card-title>
+          <md-card-title-text>
+            <span class="md-headline">Who won the most for each jersey you ask ?</span>
+          </md-card-title-text>
+        </md-card-title>
+        <md-card-content>
+          <div id="personsContainer" class="md-card-image"></div>
+        </md-card-content>
+      </md-card>
+    </md-content>
+
+  </md-content>
+
   <md-content ng-show="!$ctrl.info && $ctrl.year">
     <p>Sorry my friend, I don't have any Tour de France data for that year...</p>
   </md-content>
