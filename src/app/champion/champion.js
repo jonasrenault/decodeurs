@@ -1,6 +1,8 @@
 import angular from 'angular';
 import Plotly from '../plotly/custom-plotly';
-import Highcharts from 'highcharts';
+
+// Following imports are needed for plotPersonsHc()
+// import Highcharts from 'highcharts';
 // import HighchartsMore from 'highcharts-more';
 // HighchartsMore(Highcharts);
 
@@ -9,13 +11,15 @@ class ChampionController {
   constructor($http, $log, TourData, $window) {
     this.$http = $http;
     this.$log = $log;
+    this.$window = $window;
     this.TourData = TourData;
     this.TourData.init(() => {
-      this.plotPersonsHc();
+      this.plotPersons();
     });
 
     this.distanceContainer = Plotly.d3.select("div[id='distanceContainer']").append('div').node();
     this.speedContainer = Plotly.d3.select("div[id='speedContainer']").append('div').node();
+    this.personsContainer = Plotly.d3.select("div[id='personsContainer']").append('div').node();
 
     angular.element($window).bind('resize', () => {
       this.onResize();
@@ -42,6 +46,8 @@ class ChampionController {
       }
       this.plotDistance();
       this.plotSpeed();
+      // Trigger window resize for charts to display properly
+      angular.element(this.$window).triggerHandler('resize');
     }
   }
 
@@ -103,6 +109,7 @@ class ChampionController {
     Plotly.newPlot(this.speedContainer, [this.TourData.speeds], layout);
   }
 
+  // Plot persons in a wind rose chart. Not easily readable. Needs Highcharts
   plotPersonsHc() {
     const winners = [];
     const climbers = [];
@@ -169,60 +176,62 @@ class ChampionController {
 
   plotPersons() {
     const winners = {
-      r: [],
-      t: [],
+      x: [],
+      y: [],
       name: 'Vainqueur',
       marker: {color: 'rgb(245,237,138)'},
-      type: 'area',
-      hoverinfo: 'text'
+      type: 'bar',
+      text: [],
+      hoverinfo: 'x+text'
     };
     const climbers = {
-      r: [],
-      t: [],
+      x: [],
+      y: [],
       name: 'Meilleur Grimpeur',
       marker: {color: 'rgb(234,42,42)'},
-      type: 'area'
+      type: 'bar',
+      text: [],
+      hoverinfo: 'x+text'
     };
     const sprinters = {
-      r: [],
-      t: [],
+      x: [],
+      y: [],
       name: 'Meilleur Sprinter',
       marker: {color: 'rgb(188,234,141)'},
-      type: 'area'
+      type: 'bar',
+      text: [],
+      hoverinfo: 'x+text'
     };
 
     this.TourData.persons.forEach(person => {
       if (person.name !== "non attribué") {
-        winners.t.push(person.name);
-        climbers.t.push(person.name);
-        sprinters.t.push(person.name);
-        winners.r.push(person.winner ? person.winner.length : 0);
-        climbers.r.push(person.climber ? person.climber.length : 0);
-        sprinters.r.push(person.sprinter ? person.sprinter.length : 0);
+        winners.x.push(person.name);
+        winners.y.push(person.winner ? person.winner.length : 0);
+        winners.text.push(person.winner ? person.winner.join(', ') : '');
+        climbers.x.push(person.name);
+        climbers.y.push(person.climber ? person.climber.length : 0);
+        climbers.text.push(person.climber ? person.climber.join(', ') : '');
+        sprinters.x.push(person.name);
+        sprinters.y.push(person.sprinter ? person.sprinter.length : 0);
+        sprinters.text.push(person.sprinter ? person.sprinter.join(', ') : '');
       }
     });
+
     const layout = {
-      title: 'Nombre de victoires',
       font: {size: 16},
-      angularaxis: {
-        showticklabels: false
-      },
-      margin: {
-        l: 10,
-        r: 150,
-        b: 0,
-        t: 40,
-        pad: 0
-      },
-      height: 450
+      barmode: 'stack',
+      xaxis: {
+        tickangle: -45
+      }
     };
 
-    Plotly.plot(this.personsContainer, [winners, climbers, sprinters], layout);
+    Plotly.plot(this.personsContainer, [sprinters, climbers, winners], layout);
   }
 
   onResize() {
     Plotly.Plots.resize(this.distanceContainer);
     Plotly.Plots.resize(this.speedContainer);
+    Plotly.Plots.resize(this.personsContainer);
   }
 }
 

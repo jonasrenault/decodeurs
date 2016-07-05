@@ -1,3 +1,14 @@
+html,
+body,
+main {
+  height: 100%;
+}
+
+body > main {
+  height: auto;
+  min-height: 100%;
+}
+
 .champion-container md-card-avatar {
   width: 60px;
   height: 60px;
@@ -16,4 +27,8 @@
 
 .yellow {
   background-color: #f5ed8a;
+}
+
+.graph-container {
+  min-width: 650px;
 }

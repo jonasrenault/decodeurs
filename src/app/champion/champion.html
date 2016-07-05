@@ -1,4 +1,4 @@
-<md-content flex class="champion-container" layout-padding layout="column">
+<div class="champion-container" layout-padding layout="column">
 
   <h4 class="md-title">
     Hey there champion, what year were you born ?
@@ -8,7 +8,7 @@
     <form name="championForm" flex-gt-sm="20" flex="50">
       <md-input-container class="md-block" flex-gt-sm>
         <label>Year of birth</label>
-        <input type="number" name="year" ng-model="$ctrl.year" placeholder="1986" required ng-pattern="/^[0-9]{4}$/" ng-change="$ctrl.onYearChange()">
+        <input type="number" name="year" ng-model="$ctrl.year" placeholder="1986" required ng-pattern="/^[0-9]{4}$/" ng-change="$ctrl.onYearChange()" />
         <div ng-messages="championForm.year.$error" role="alert" multiple>
           <div ng-message="required" class="my-message">You must supply your year of birth.</div>
           <div ng-message="pattern" class="my-message">That doesn't look like a valid year.
@@ -74,9 +74,7 @@
   </md-content>
 
   <md-content class="md-padding" layout="column" layout-gt-sm="column" ng-show="$ctrl.info">
-
-    <md-content layout="row">
-      <md-card>
+      <md-card class="graph-container">
         <md-card-title>
           <md-card-title-text>
             <span class="md-headline">The average speed that year was {{$ctrl.info.speed}}</span>
@@ -86,10 +84,8 @@
           <div id="speedContainer" class="md-card-image" alt="Average Speed"></div>
         </md-card-content>
       </md-card>
-    </md-content>
 
-    <md-content layout="row">
-      <md-card>
+      <md-card class="graph-container">
         <md-card-title>
           <md-card-title-text>
             <span class="md-headline">The distance covered that year was {{$ctrl.info.distance}} km</span>
@@ -99,10 +95,8 @@
           <div id="distanceContainer" class="md-card-image" alt="Average Speed"></div>
         </md-card-content>
       </md-card>
-    </md-content>
 
-    <md-content layout="row">
-      <md-card>
+      <md-card class="graph-container">
         <md-card-title>
           <md-card-title-text>
             <span class="md-headline">Who won the most for each jersey you ask ?</span>
@@ -112,11 +106,10 @@
           <div id="personsContainer" class="md-card-image"></div>
         </md-card-content>
       </md-card>
-    </md-content>
 
   </md-content>
 
   <md-content ng-show="!$ctrl.info && $ctrl.year">
     <p>Sorry my friend, I don't have any Tour de France data for that year...</p>
   </md-content>
-</md-content>
+</div>
