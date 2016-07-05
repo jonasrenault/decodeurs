@@ -123,55 +123,55 @@ class ChampionController {
       }
     });
 
-    Highcharts.chart('personsContainer', {
-      series: [{
-        name: "Meilleur Sprinteur",
-        data: sprinters,
-        color: 'rgb(188,234,141)'
-      }, {
-        name: "Meilleur Grimpeur",
-        data: climbers,
-        color: 'rgb(234,42,42)'
-      }, {
-        name: "Vainqueur",
-        data: winners,
-        color: 'rgb(245,237,138)'
-      }],
-      chart: {
-        polar: true,
-        type: 'column'
-      },
-      pane: {
-        size: '85%'
-      },
-      title: {
-        text: ''
-      },
-      legend: {
-        align: 'right',
-        verticalAlign: 'top',
-        y: 100,
-        layout: 'vertical'
-      },
-      xAxis: {
-        tickmarkPlacement: 'off'
-      },
-      yAxis: {
-        title: 'Victoires',
-        min: 0,
-        endOnTick: false,
-        showLastLabel: true,
-        reversedStacks: false
-      },
-      plotOptions: {
-        series: {
-          stacking: 'normal',
-          shadow: false,
-          groupPadding: 0,
-          pointPlacement: 'on'
-        }
-      }
-    });
+    // Highcharts.chart('personsContainer', {
+    //   series: [{
+    //     name: "Meilleur Sprinteur",
+    //     data: sprinters,
+    //     color: 'rgb(188,234,141)'
+    //   }, {
+    //     name: "Meilleur Grimpeur",
+    //     data: climbers,
+    //     color: 'rgb(234,42,42)'
+    //   }, {
+    //     name: "Vainqueur",
+    //     data: winners,
+    //     color: 'rgb(245,237,138)'
+    //   }],
+    //   chart: {
+    //     polar: true,
+    //     type: 'column'
+    //   },
+    //   pane: {
+    //     size: '85%'
+    //   },
+    //   title: {
+    //     text: ''
+    //   },
+    //   legend: {
+    //     align: 'right',
+    //     verticalAlign: 'top',
+    //     y: 100,
+    //     layout: 'vertical'
+    //   },
+    //   xAxis: {
+    //     tickmarkPlacement: 'off'
+    //   },
+    //   yAxis: {
+    //     title: 'Victoires',
+    //     min: 0,
+    //     endOnTick: false,
+    //     showLastLabel: true,
+    //     reversedStacks: false
+    //   },
+    //   plotOptions: {
+    //     series: {
+    //       stacking: 'normal',
+    //       shadow: false,
+    //       groupPadding: 0,
+    //       pointPlacement: 'on'
+    //     }
+    //   }
+    // });
   }
 
   plotPersons() {
